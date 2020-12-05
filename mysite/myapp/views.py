@@ -1,4 +1,6 @@
 from django.views.generic import TemplateView
 
 class IndexTemplateView(TemplateView):
-    template_name = "index.html"
+    #テンプレートの設定
+#    template_name = "index.html"
+    template_name = "tp_simple7_pink/index.html"
